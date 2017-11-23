@@ -1,0 +1,79 @@
+{
+  "intents": [
+    {"intent": "GoPalIntent", "slots": [
+        {
+          "name": "Transportation",
+          "type": "LIST_OF_TRANSPORTATIONS"
+        }
+      ]
+    },
+    {"intent": "TrianArrivalTimesIntent", "slots": [
+        {
+          "name":"Stations",
+          "type":"LIST_OF_STATIONS"
+        },
+        {
+          "name":"Routes",
+          "type":"LIST_OF_ROUTES"
+        }
+      ]
+    },
+    {"intent": "RoutesIntent", "slots": [
+        {
+          "name":"Routes",
+          "type":"LIST_OF_ROUTES"
+        }
+      ]
+    },
+    {"intent": "CancellationsIntent", "slots": [
+        {
+          "name":"Routes",
+          "type":"LIST_OF_ROUTES"
+        }
+      ]
+    },
+    {"intent": "SetDefaultStation", "slots": [
+        {
+          "name":"Stations",
+          "type":"LIST_OF_STATIONS"
+        }
+      ]
+    },
+    {"intent": "PurchaseTicketIntent", "slots": [
+        {
+          "name":"NumberOfTickets",
+          "type":"AMAZON.NUMBER"
+        },
+        {
+          "name":"TrainTimes",
+          "type":"AMAZON.TIME"
+        }
+      ]
+    },
+   {"intent": "CheckStationInRouteIntent", "slots": [
+        {
+          "name":"Routes",
+          "type":"LIST_OF_ROUTES"
+        },
+        {
+          "name":"Stations",
+          "type":"LIST_OF_Stations"
+        }
+      ]
+    },
+    {"intent": "ClearDefaultStationIntent"
+    },
+    {
+      "intent": "AMAZON.YesIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    }
+  ]
+}

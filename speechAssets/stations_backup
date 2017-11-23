@@ -1,0 +1,113 @@
+
+
+var stations = {
+    "milton_go": {
+        "name": "Milton Go", 
+        "timeslots": [{"route_name": "","arrival_times":["12:30", "12:35", "1:00"]}],
+        "cancelations":"none",
+        "parent_station": "milton go",
+        "reachable_stations":[
+            {"route_name": "",
+            "next_stations":["lisgar go","streetsville go","erindale go","cooksville go","dixie go","kipling go","union station"] 
+            }
+        ] 
+    },
+    "lisgar_go": {
+        "name": "Lisgar Go", 
+        "timeslots": [{"route_name": "","arrival_times":["12:30", "12:35", "1:00"]}],
+        "cancelations": "none",
+        "parent_station": "milton_go",
+        "reachable_stations":[
+            {"route_name": "",
+            "next_stations":["streetsville go","erindale go","cooksville go","dixie go","kipling go","union station" ] 
+            },
+            {"route_name": "",
+            "next_stations":["milton go"] 
+            }
+        ]
+    },
+    "streetsville_go": {
+        "name": "Streetsville Go", 
+        "timeslots": [{"route_name": "","arrival_times":["12:30", "12:35", "1:00"]}],
+        "cancelations":"none",
+        "parent_station": "milton_go",
+         "reachable_stations":[
+            {"route_name": "",
+            "next_stations":["erindale_go","cooksville_go","dixie_go","kipling_go","union_station"] 
+            },
+            {"route_name": "",
+            "next_stations":["lisgar go", "milton go"] 
+            }
+        ]
+    },
+    "erindale_go": {
+        "name": "Erindale Go", 
+        "timeslots": [{"route_name": "","arrival_times":["12:30", "12:35", "1:00"]}],
+        "cancelations":"none",
+        "parent_station": "milton_go",
+         "reachable_stations":[
+            {"route_name": "",
+            "next_stations":["cooksville go","dixie go","kipling go","union station" ] 
+            },
+            {"route_name": "",
+            "next_stations":["streetsville go","lisgar go", "milton go"] 
+            }
+        ]
+    },
+    "cooksville_go": {
+        "name": "Cooksville Go", 
+        "timeslots": [{"route_name": "","arrival_times":["12:30", "12:35", "1:00"]}],
+        "cancelations":"none",
+        "parent_station": "milton_go",
+        "reachable_stations":[
+            {"route_name": "",
+            "next_stations":["dixie go","kipling go","union station"] 
+            },
+            {"route_name": "",
+            "next_stations":["erindale go","streetsville go","lisgar go", "milton go"] 
+            }
+        ]
+    },
+    "dixie_go": {
+        "name": "Dixie Go", 
+        "timeslots": [{"route_name": "","arrival_times":["12:30", "12:35", "1:00"]}],
+        "cancelations":"none",
+        "parent_station": "milton_go",
+        "reachable_stations":[
+            {"route_name": "",
+            "next_stations":["kipling go","union station"] 
+            },
+            {"route_name": "",
+            "next_stations":["cooksville go","erindale go","streetsville go","lisgar go", "milton go"] 
+            }
+        ] 
+    },
+    "kipling_go": {
+        "name": "Kipling Go", 
+        "timeslots": [{"route_name": "","arrival_times":["12:30", "12:35", "1:00"]}],
+        "cancelations":"none",
+        "parent_station": "milton_go",
+         "reachable_stations":[
+            {"route_name": "",
+            "next_stations":["union station"] 
+            },
+            {"route_name": "",
+            "next_stations":["kipling go","cooksville go","erindale go","streetsville go","lisgar go", "milton go"] 
+            }
+        ] 
+    },
+    "union_station": {
+        "name": "Union Go", 
+        "timeslots": [{"route_name": "","arrival_times":["12:30", "12:35", "1:00"]}],
+        "cancelations": "none",
+        "parent_station": "milton_go",
+         "reachable_stations":[
+            {"route_name": "",
+            "next_stations":[""] 
+            },
+            {"route_name": "",
+            "next_stations":["kipling go","cooksville go","erindale go","streetsville go","lisgar go", "milton go"] 
+            }
+        ] 
+    }
+}

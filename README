@@ -1,0 +1,5 @@
+Alexa app prototype that gives GoTrain transit info in the GTA region. Uses the  General Transit Feed Specification
+to retrieve train times, destinations, and routes.
+
+----------------------------------
+Made for the d{}-Innovation Hackaton May 2017

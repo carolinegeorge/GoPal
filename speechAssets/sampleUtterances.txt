@@ -1,0 +1,19 @@
+GoPalIntent go to {Transportation}
+GoPalIntent {Transportation}
+TrianArrivalTimesIntent {Stations}
+TrianArrivalTimesIntent when is the next train {Stations}
+TrianArrivalTimesIntent when is the next train for {Stations}
+TrianArrivalTimesIntent can you check the next train for {Stations}
+TrianArrivalTimesIntent when will the train arrive {Stations}
+TrianArrivalTimesIntent can you check the next train for {Stations} for route {Routes}
+TrianArrivalTimesIntent Check the next train for {Stations} for route {Routes}
+TrianArrivalTimesIntent train times
+TrianArrivalTimesIntent check when the train for {Stations} is coming
+TrianArrivalTimesIntent train times for {Stations}
+SetDefaultStation set the default station to {Stations}
+CheckCancelations can you check for delays for {Stations}
+RouteLine What are the stations for route {Routes}
+RouteLine Name the stations for route {Routes}
+AMAZON.HelpIntent how do I use the Go Pal
+
+TrainArrivalIntent Check when the train {TrainTime} for {Station} is coming

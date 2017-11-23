@@ -1,0 +1,37 @@
+TrianArrivalTimesIntent Do you know when's the next train
+TrianArrivalTimesIntent When is my next train time
+TrianArrivalTimesIntent When is my next train
+TrianArrivalTimesIntent {Stations}
+TrianArrivalTimesIntent When is the next train for {Stations}
+TrianArrivalTimesIntent When is the next train for {Stations} for the {Routes}
+TrianArrivalTimesIntent Train times
+TrianArrivalTimesIntent Check when the train for {Stations} is coming
+TrianArrivalTimesIntent Train times for {Stations}
+CheckStationInRouteIntent Is the {Stations} station in {Routes} route
+ClearDefaultStationIntent Clear the default station
+ClearDefaultStationIntent Remove the default station
+RoutesIntent What are the stations for route {Routes}
+RoutesIntent What are the stations for {Routes}
+RoutesIntent What are the stations for route {Routes} again
+RoutesIntent What are the stations for {Routes} again
+RoutesIntent Name the stations for route {Routes}
+CancellationsIntent Are there any delays for route {Routes}
+PurchaseTicketIntent Yes purchase {NumberOfTickets} tickets for the {TrainTimes}
+PurchaseTicketIntent Yes. Purchase {NumberOfTickets} tickets for the {TrainTimes}
+PurchaseTicketIntent Yes purchase {NumberOfTickets} tickets for the {TrainTimes}
+PurchaseTicketIntent Purchase {NumberOfTickets} tickets for the {TrainTimes}
+AMAZON.StopIntent Nope
+AMAZON.StopIntent No thank you
+AMAZON.StopIntent No thanks
+AMAZON.StopIntent No
+AMAZON.StopIntent No but thank you
+AMAZON.StopIntent Nope but thank you
+AMAZON.CancelIntent Close
+AMAZON.CancelIntent Nah I'm done
+AMAZON.CancelIntent Actually I'm done
+AMAZON.CancelIntent I'm done
+SetDefaultStation Set the default station to {Stations}
+SetDefaultStation Set the default station for {Stations}
+SetDefaultStation Set the default for {Stations}
+SetDefaultStation Set the default to {Stations}
+AMAZON.HelpIntent How do I use the GoPal
