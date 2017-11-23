@@ -3,3 +3,7 @@ to retrieve train times, destinations, and routes.
 
 ----------------------------------
 Made for the d{}-Innovation Hackaton May 2017
+
+------------------------------------------
+Made as a prototype, requires AWS account. To use, place AWS id in the quotation marks in below the 
+"Uncomment this". Send an email to info@carolinegeorge.ca for demo or other questions
